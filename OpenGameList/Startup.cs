@@ -34,6 +34,8 @@ namespace OpenGameList
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseMvc();
         }
     }
